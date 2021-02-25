@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+   
+    <link rel='stylesheet' media='screen and (min-width: 201px) and (max-width: 1400px)' href='style.css' />
+
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="nav-item0"></div>
+            <div class="nav-item1"><a href="#">IMDb</a></div>
+            <div class="nav-item2">MENU</div>
+            <div class="nav-item3"><div><input class="searchbar" type="text" id="sid1" value="" placeholder="Search IMDb"></div><div><button onclick="searchQuery();">Search</button></div></div>
+            <div>IMDbPro</div>
+            <div>Watchlist</div>
+            <div>Sign in</div>
+        </div>
+        <div id="main-content-section">
+        <div class="space"></div>
+        
+        <!-- <span><svg fill='yellow'>
+                <<path
+                    d='M12 20.1l5.82 3.682c1.066.675 2.37-.322 2.09-1.584l-1.543-6.926 5.146-4.667c.94-.85.435-2.465-.799-2.567l-6.773-.602L13.29.89a1.38 1.38 0 0 0-2.581 0l-2.65 6.53-6.774.602C.052 8.126-.453 9.74.486 10.59l5.147 4.666-1.542 6.926c-.28 1.262 1.023 2.26 2.09 1.585L12 20.099z'>
+                    </path>
+            </svg></span> -->
+
+        <div class="carousal-card">
+        <div class="carousal-card-item1">
+            <div class="prev-btn"><a href="#" class="previous-button">&#8249;</a></div>
+            <div><img src="https://image.tmdb.org/t/p/w500//srYya1ZlI97Au4jUYAktDe3avyA.jpg" width="100%" alt="wonder woman image"/></div>
+            <div class="next-btn"><a href="#" class="next-button">&#8250;</a></div>
+        </div>
+        <div class="carousal-card-item2">Up Down Carousal</div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <h1>Trending All Day</h1>
+
+        <div id="b" class="img12">
+        </div>
+
+
+        <h1>Discover Movie</h1>
+        <div id="a" class="img10">
+        </div>
+
+
+        <div id="c" class="img10">
+        </div>
+
+       
+
+        <div class="head1">
+            <div class="head2">Top picks</div>
+            <div class="head3">TV shows and movies just for you</div>
+        </div>
+
+
+
+
+
+        
+        
+
+        
+        
+
+<!--         <div class="img-container">
+                <div class="card-item">
+                   <div class="card-image"></div>
+                    <div class="card-head">Lorem ipsum dolor sit</div>
+                </div>
+        </div> -->
+                <div class="head1">
+                    <div class="head2">Fan favorites</div>
+                    <div class="head3">This week's top TV and movies</div>
+                </div>
+
+
+<!--         <h1>What to watch</h1>
+        <div class="img-container">
+            <div class="img-item">
+                <div class="image"><img src="3.jpg" alt="image1" height="100%" width="100%"></div>
+                <div class="img-head">Image</div>
+                <div class="img-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis vero voluptatem consequatur quae molestiae! Ullam sit sed fugiat ab voluptate consectetur, quod, est dignissimos, velit molestias perferendis nostrum alias officia?</div>
+            </div>
+        </div> -->
+
+        </div>
+        <!-- end main content section above -->
+        <!-- Search content section -->
+          
+        <div id="search-content-section">
+                    <div class="search-head">
+                        <div class="search-head-item1">Results for <span id="search_keyword"></span></div>
+                        <div class="search-head-item2">Titles Description</div>
+                    </div>
+                <div class="search-grid" id="d"></div>
+        </div>
+        <!-- end search content section -->
+        <!-- details content section start-->
+        <div id="detail-content-section">
+            <div></div>
+            <div class="search-grid" id="detailcontent"></div>
+            <div></div>
+
+
+        </div>
+        <!-- detail content section end -->
+
+
+
+
+
+
+        <div class="footer">
+                <div class="item1">Get the IMDb App</div>
+                <div class="item2">SiteIndex</div>
+                <div class="item3">IMDbPro</div>
+                <div class="item4">Box Office Mojo</div>
+                <div class="item5">IMDb Developer</div>
+                <div class="item6">Press Room</div>
+                <div class="item7">Advertising</div>  
+        </div>
+<div class="item8">© 1990-2021 by IMDb.com, Inc.
+        <div class="overlay">
+    <div class="text">Hello World</div>
+  </div>
+</div>
+        <!-- http://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc?&api_key=40287c4c0632db7267b9149ba5df9928 -->
+    <script src="script.js"></script>
+    </body>
+    </html>
+
+
+
+
+
+
+
+

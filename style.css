@@ -1,0 +1,354 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/* Elements CSS */
+h1{
+    color:rgb(241, 176, 10);
+    font-size: 2em;
+    font-weight: bolder;
+}
+h3{
+    font-size: 1.3em;
+    margin:0px;
+}
+p{
+    font-size: 1.4em;
+    text-shadow: #121212;
+}
+/*************************************** Element END ********************/
+.carousal-card{
+    background-color: #fff;
+    color:black;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.carousal-card-item1{
+    background-color: rgb(238, 234, 241);
+    display: grid;
+    grid-template-columns: 45px auto 45px;
+}
+.carousal-card-item2{
+    background-color: cadetblue;
+}
+.previous-button{
+    font-size: 3em;
+    align-content: center;
+}
+.prev-btn,.next-btn{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-flow: column;
+}
+.prev-btn>a,.next-btn>a{
+    background-color:darkgrey;
+    border: 1px solid black;
+    text-decoration: none;
+    justify-content: center;
+}
+.next-button{
+    font-size: 3em;
+    float:right;
+}
+/* ******************************Carousal end******************************************* */
+body{
+    background-color:#000000;
+    color: white;
+}
+img:hover{
+    opacity: 0.8;
+    font-weight: bold;
+    padding: 5px;
+    z-index: 1px;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    background-color:#121212;
+    color:white;
+}
+.navbar>div{
+    padding:10px 25px;
+}
+.nav-item1{
+    background-color: #f5c518;
+    font-weight: bolder;
+    font-size: large;
+    color:black;
+    border-radius: 2px;
+}
+.nav-item2{
+    padding:5px;
+}
+.nav-item3{
+    display:inline-flex;
+    color:black;
+    align-items: center;
+    justify-content: center;
+
+}
+.nav-item3>div{
+    color:white;
+
+}
+.searchbar{
+    padding: 2px;
+    width:600px;
+}
+@media only screen and (max-width:700px)
+{
+    .searchbar{
+    padding: 2px;
+    width:300px;
+}
+}
+.space{
+    padding: 100px;
+        background: repeating-linear-gradient(-45deg, #fff, #fff 2px, transparent 2px, transparent 9px);
+       -webkit-mask-image: -webkit-radial-gradient(rgba(0,0,0,0.15) 0, transparent 74%, transparent 85%);
+       mask-image: -webkit-radial-gradient(rgba(0,0,0,0.15) 0, transparent 74%, transparent 85%);
+       width: 100%;
+
+}
+/* Header above and down body content css */
+.img10{
+    display: flex;
+    flex-flow:row;
+    align-items: center;
+    overflow-x: auto;
+}
+.img10 > div {
+  background-color: #1a1a1a;
+  text-align: center;
+  padding: 5px;
+  margin: 0px 10px;
+}
+.img12{
+    display: flex;
+    flex-flow:row;
+    align-items: center;
+    overflow-x: auto;
+}
+.img12 > div {
+  background-color: #1a1a1a;
+  text-align: center;
+  padding: 5px;
+  margin: 5px 10px;
+}
+#text1{
+    width: 300px;
+    text-align: left;
+}
+/* head1,head2... */
+.head1{
+   padding: 10px;
+}
+.head2{
+    font-size: 2em;
+    font-weight: bolder;
+    border-left: 5px solid yellow;
+    padding: 5px;
+}
+.head3{
+    padding: 10px;
+}
+
+
+
+/* image container */
+.img-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    padding: 10px;
+}
+.img-item{
+    width: 220px;
+    background-color: #1a1a1a;
+    padding: 10px;
+    margin: 5px;
+}
+.image{
+    background-color: cornsilk;
+    width: 200px;
+    height:220px;
+    padding: 10px;
+}
+.img-head{
+    font-size: large;
+    font-weight:bolder;
+    padding: 5px;
+}
+.img-desc{
+    color:crimson;
+    padding: 2px;
+}
+.card-item{
+    width: 300px;
+    background-color: #1a1a1a;
+    padding: 10px;
+    margin: 5px;
+}
+.card-image{
+        background-color: cornsilk;
+        padding: 5px;
+    width: 270px;
+    height:240px;
+}
+.card-head{
+    font-size: large;
+    font-weight:bolder;
+}
+
+.flex-item-card{
+    display: flex;
+    flex-flow: column;
+    background-color: rgb(95, 184, 211);
+}
+.flex-item-card>div{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(130, 48, 185);
+    margin: 5px;
+}
+.flex-card{
+    display: flex;
+    flex-flow: column;
+}
+/* grid iamges */
+.imggrid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    flex-wrap: wrap;
+}
+.imggrid>div{
+  width: 310px;
+  background-color: #1a1a1a;
+  text-align: center;
+  padding: 5px;
+  margin: 10px 10px;
+}
+
+
+/* search-content-section start*/
+.search-head{
+   padding: 10px;
+}
+.search-head-item1{
+    font-size: 2em;
+    font-weight: bolder;
+    border-left: 5px solid yellow;
+    padding: 5px;
+}
+.search-head-item2{
+    padding: 10px;
+}
+
+#search-content-section{
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  background-color:#ffffff;
+  color: #000000;
+
+  gap: 4px;
+  grid-auto-flow: column;
+}
+.search-grid{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  align-content: center;
+
+  gap: 5px;
+  grid-auto-flow: row;
+}
+
+
+@media only screen and (max-width:710px)
+{
+  .search-grid{
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-content: center;
+
+  gap: 5px;
+  grid-auto-flow: row;
+              }
+}
+@media only screen and (max-width:380px)
+{
+  .search-grid{
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  align-content: center;
+
+  gap: 5px;
+  grid-auto-flow: row;
+              }
+}
+/* search content section end */
+
+
+/* detail-content-section start */
+#detail-content-section{
+    width: 900px;
+    margin:auto;
+    display: grid;
+    grid-template-columns: auto;
+    align-content: center;
+    justify-content: center;
+    background-color:#ffffff;
+    color: #000000;
+
+}
+/* detail-content-section end */
+.overlay{
+  position: absolute;
+  opacity: 0;
+  transition: 0.5 ease;
+  background-color: white;
+}
+.text{
+  position: absolute;
+  -webkit-transform:translate(-50%,-50%);
+  -ms-transform:translate(-50%,-50%);
+  transform:translate(-50%,-50%);
+  text-align: center;
+}
+.container:hover .overlay{
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+/* footer area */
+.footer{
+    display:flex;
+    flex-wrap: wrap;
+    padding: 60px 0px;
+    width: 80%;
+    margin-left: 10%;
+}
+.footer>div{
+    width: 33%;
+    padding: 10px;
+}
+.item8{
+    position: absolute;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+}
